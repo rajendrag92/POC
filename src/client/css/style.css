@@ -1,0 +1,27 @@
+body {
+  background-color: white;
+}
+.navbar-light {
+  background-color: darkgray;
+}
+.navbar {
+  min-height: 70px;
+}
+.navbar .navbar-text {
+  margin-top: 20px;
+  font-weight: bolder;
+}
+.navbar select {
+  margin-top: 15px;
+  min-width: 300px;
+}
+circle {
+  color: #fff;
+  font-family: Monoton;
+  -webkit-animation: neon1 1.5s ease-in-out infinite alternate;
+  -moz-animation: neon1 1.5s ease-in-out infinite alternate;
+  animation: neon1 1.5s ease-in-out infinite alternate;
+}
+.map-place-holder {
+  cursor: pointer;
+}

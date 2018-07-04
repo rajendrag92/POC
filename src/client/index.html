@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html  lang="en">
+    <head>
+        <title>SF Muni Vehicle</title>
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+	      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <link rel="stylesheet" href="/css/bootstrap.css">
+        <link rel="stylesheet" href="/css/style.css">
+    </head>
+
+    <body>
+      
+        <div class="container">
+          <div class=row>
+            <div class=" col-sm-12 col-md-12 col-xs-12 col-lg-12">
+                <nav class="navbar navbar-light bg-light">
+
+                    <form class="form-inline">
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <div class="navbar-text">
+                                  Agencies
+                                </div>
+                                <select id="agencies" class="form-control agency-list"></select>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="navbar-text">
+                                  Routes
+                                </div>
+                                <select id="routes" class="form-control route-list"></select>
+                            </div>
+                          </div>    
+                      </form>
+                </nav>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class=" col-lg-offset-1 col-sm-10 col-md-10 col-xs-10 col-lg-10 map-place-holder">
+            </div>
+          </div>
+          
+        </div>
+
+        <div class="alert alert-warning alert-dismissible fade show" role="alert">
+          <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+          <strong>Sorry!</strong> We are unable to process your request.
+        </div>
+
+        <script src="build/js/jquery.min.js"></script>
+        <script src="build/js/bootstrap.min.js"></script>
+        <script src="build/js/d3.min.js"></script>
+        <script src="build/js/underscore-min.js"></script>
+        <script src='build/bundle.js' type='text/javascript'></script>
+
+    </body>
+</html>
